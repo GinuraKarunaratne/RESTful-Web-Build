@@ -7,6 +7,15 @@ public class Employee {
     private String email;
     private String title;
 
+    // Constructor
+    public Employee(String employee_id, String first_name, String last_name, String email, String title) {
+        this.employee_id = employee_id;
+        this.first_name = first_name;
+        this.last_name = last_name;
+        this.email = email;
+        this.title = title;
+    }
+
     // Getters and Setters
     public String getEmployeeId() {
         return employee_id;
