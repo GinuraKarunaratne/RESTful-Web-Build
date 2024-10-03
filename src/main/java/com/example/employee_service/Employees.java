@@ -3,6 +3,8 @@ package com.example.employee_service;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.example.employee_service.model.Employee;
+
 public class Employees {
     private List<Employee> employeeList;
 
